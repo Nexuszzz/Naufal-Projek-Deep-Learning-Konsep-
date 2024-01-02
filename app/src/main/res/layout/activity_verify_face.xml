@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <FrameLayout android:id="@+id/frameVerifyFace"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageImageSix"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_876pxv"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY" imageRes="@{@drawable/img_image6}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image6"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnStart"
+            android:layout_gravity="bottom|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_377pxv"
+            android:layout_marginEnd="@dimen/_29pxh"
+            android:layout_marginStart="@dimen/_29pxh"
+            android:layout_marginTop="@dimen/_377pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_23pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_23pxv" android:singleLine="true"
+            android:text="@string/lbl_start" android:textAllCaps="false"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_start"/>
+        <ImageView android:id="@+id/imageScreenshot2023"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_251pxh"
+            android:layout_marginBottom="@dimen/_115pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_115pxv"
+            android:layout_width="@dimen/_409pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_screenshot2023}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_screenshot2023"/>
+    </FrameLayout>
+</layout>

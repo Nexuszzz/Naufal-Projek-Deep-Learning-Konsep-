@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">naufal_s_application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_start">START</string>
+  <string name="lbl_output">Output</string>
+  <string name="lbl_ukuran_tumor">Ukuran Tumor</string>
+  <string name="lbl_next">NEXT</string>
+  <string name="lbl_1">1</string>
+  <string name="msg_upload_brain_tu">Upload Brain Tumor </string>
+  <string name="lbl_2">2</string>
+  <string name="lbl_classify">Classify</string>
+  <string name="lbl_3">3</string>
+  <string name="lbl_glioma">Glioma</string>
+  <string name="lbl_4">4</string>
+  <string name="lbl_5">5</string>
+  <string name="lbl_6">6</string>
+  <string name="lbl_let_s_check">Let\u2019s Check</string>
+  <string name="msg_kondisi_pembulu">Kondisi Pembuluh Darah</string>
+  <string name="lbl_first_step">First Step</string>
+  <string name="lbl_jenis_tumor">Jenis Tumor</string>
+  <string name="lbl_5_cm">5 cm</string>
+  <string name="lbl_lobus_temporal">Lobus Temporal</string>
+  <string name="lbl_stadium_tumor">Stadium Tumor</string>
+  <string name="lbl_tumor_detected">Tumor Detected</string>
+  <string name="msg_pembuluh_darah">Pembuluh Darah Tertekan</string>
+  <string name="lbl_tinggi">Tinggi</string>
+  <string name="lbl">#</string>
+  <string name="lbl_lokasi_tumor">Lokasi Tumor</string>
+  <string name="lbl_kepadatan_tumor">Kepadatan Tumor</string>
+</resources>

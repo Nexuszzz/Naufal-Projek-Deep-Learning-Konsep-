@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <FrameLayout android:id="@+id/frameInstructionste"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageImageSix"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_866pxv"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_image6_866x428}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image6_866x428"/>
+        <ImageView android:id="@+id/imageImageNine"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_491pxv"
+            android:layout_marginBottom="@dimen/_171pxv"
+            android:layout_marginTop="@dimen/_171pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY" imageRes="@{@drawable/img_image9}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image9"/>
+    </FrameLayout>
+</layout>

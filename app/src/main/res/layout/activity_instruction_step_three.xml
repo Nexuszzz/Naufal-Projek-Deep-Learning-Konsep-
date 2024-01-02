@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearInstructionste"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageImageSixteen"
+            android:layout_height="@dimen/_126pxh"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_width="@dimen/_153pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_image16}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image16"/>
+        <FrameLayout android:id="@+id/frameStackoutput"
+            android:layout_height="@dimen/_599pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginTop="@dimen/_123pxv" android:layout_width="match_parent">
+            <ImageView android:id="@+id/imageImageTen"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_image10}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_image10"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtOutput"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_22pxv"
+                android:layout_marginEnd="@dimen/_153pxh"
+                android:layout_marginStart="@dimen/_153pxh"
+                android:layout_marginTop="@dimen/_22pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@string/lbl_output"
+                style="@style/txtLatobold24" tools:text="@string/lbl_output"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

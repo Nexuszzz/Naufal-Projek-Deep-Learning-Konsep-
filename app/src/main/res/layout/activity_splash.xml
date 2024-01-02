@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearSplash"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageImageTwelve"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_195pxh"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_250pxv"
+            android:layout_width="@dimen/_260pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_image12}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image12"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnLetsCheck"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_38pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_23pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_23pxv" android:singleLine="true"
+            android:text="@string/lbl_let_s_check"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/lbl_let_s_check"/>
+    </LinearLayout>
+</layout>
